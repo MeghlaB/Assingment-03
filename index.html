@@ -36,68 +36,81 @@
    
 </head>
 <body class=" font-manrope ">
-    <header class="container mx-auto bg-colour">
-      <!-- nav-bar -->
-      <div class="navbar bg-base-100 bg-colour pt-5 ">
-        <div class="navbar-start">
-          <div class=" flex justify-between items-center">
-            <i class="fa-solid fa-arrow-up text-2xl w-[40px] h-[40px] px-3 py-1 rotate-45 top-5 rounded-full bg-primary"></i>
-            <a class="btn btn-ghost text-3xl font-bold text-[rgb(33, 33, 33);
-            ] ">Rinterio</a>
+    <header class="container mx-auto ">
+        <!-- navbar -->
+        <div class="navbar bg-base-100 ">
+          <div class="navbar-start"> 
+            <i class="fa-solid fa-arrow-right text-xl  border px-3 py-1 rounded-full w-[40px] h-[40px] bg-primary -rotate-45"></i>
+            <a class="btn btn-ghost text-3xl font-extrabold">Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal drop-shadow-none px-1 text-xl">
+              <li class="hover:text-black hover:font-bold"><a>Home</a></li>
+              <li class="hover:text-black hover:font-bold"><a>Services</a></li>
+              <li class="hover:text-black hover:font-bold"><a>Portfilo</a></li>
+              <li class="hover:text-black hover:font-bold"><a>Blogs</a></li>
+              <li class="hover:text-black hover:font-bold"><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end ">
+            <div class="hidden lg:block space-x-4">
+              <i class="fa-solid fa-magnifying-glass  border px-3 py-3 rounded-full w-[40px] h-[40px] bg-white"></i>
+              <i class="fa-solid fa-cart-shopping border px-3 py-3 rounded-full w-[40px] h-[40px] bg-white"></i>
+              <a class="  btn text-2xl font-extrabold rounded-3xl p bg-primary hover:bg-primary">Book Consult <i class="fa-solid fa-arrow-right text-xl bg-black text-white w-[35px] h-[35px] pt-1 -rotate-45 rounded-full"></i></a>
+            </div>
+       
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block h-5 w-5 stroke-current">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content right-8 bg-base-100 rounded-box  mt-3 w-52 p-2 shadow"> 
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfilo</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li class= "text-bs hover:text-black hover:font-bold "><a>Home</a></li>
-            <li class= "text-bs hover:text-black hover:font-bold " ><a>Services</a></li>
-            <li class= "text-bs hover:text-black hover:font-bold "><a>Portfolio</a></li>
-            <li class= " text-bs hover:text-black hover:font-bold "><a>Blogs</a></li>
-            <li class= "text-bs hover:text-black hover:font-bold " ><a>Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end gap-1 lg:gap-9 items-center">
-          <div class="w-10 h-10 rounded-full bg-white py-2 px-3 hidden lg:block">
-            <i class="fa-solid fa-magnifying-glass"></i>
+        <!-- banner -->
+        <div class="text-center space-y-9 py-4 ">
+          <!-- banner-image -->
+          <div class="flex justify-center">
+            <img src="./assets/banner.png" alt="">
           </div>
-          <div class="w-10 h-10 rounded-full bg-white py-2 px-3 hidden lg:block">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </div>
-          <a class="btn text-black bg-primary rounded-3xl hidden lg:block py-3">Book Consult <i class="fa-solid fa-arrow-up text-bs w-6 h-6 px-1 py-1 rotate-45 rounded-full bg-black text-white"></i></a>
-          <div class="w-10 h-10 rounded-full bg-white py-2 px-3 lg:hidden">
-            <i class="fa-solid fa-bars bg-slate-200 text-2xl "></i>
-          </div>
+          <!-- text-container -->
+           <div class="space-y-5">
+              <h2 class=" text-3xl lg:text-6xl font-extrabold text-black">A barn house of this design has a <br> striking appearance</h2>
+              <p class="text-dark">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, <br>sleek metal accents, and large windows that flood the space with natural light.</p>
+              <button class="btn btn-wide rounded-3xl text-xl w-80 lg:w-52 font-extrabold hover:bg-primary bg-[#ABEF5F80]">View Details <i class="fa-solid fa-arrow-right   border px-2 py-2 rounded-full w-[35px] h-[35px] bg-primary -rotate-45"></i></button>
+           </div>
         </div>
-      </div> 
-      <!-- Banner-section -->
-      <div class=" ">
-        <div class="hero-content text-center flex flex-col">
-         <div>
-          <img src="./assets/banner.png" alt="">
-         </div>
-         <div class="lg:w-4/5">
-          <h1 class= "text-4xl lg:text-6xl font-bold">A barn house of this design has a striking appearance</h1>
-          <p class="py-6 text-dark text-bs font-normal">
-            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
-          </p>
-          <a class="btn text-black bg-[#ABEF5F80] rounded-3xl w-9/12 lg:w-52 lg:14">Book Consult <i class="fa-solid fa-arrow-up text-bs w-6 h-6 px-1 py-1 rotate-45 rounded-full bg-primary text-black"></i></a>
-        </div>
-        </div>
-      </div>
-
-        
     </header>
     <main class=" mt-5 lg:mt-20">
       <!-- We design thoughtful, liveable spaces -->
        <section class=" py-5 bg-colour">
-        <div class=" relative  px-20  ">
+          <div class=" relative  px-20  ">
             <img class="border-2 border-gray-400 border-dashed py-4 hidden lg:block " src="./assets/Vector.png" alt="">
-          <div class="absolute  top-18 left-36 space-x-3">
-            <a class=" text-black bg-white  h-10 px-3 py-0 lg:py-2  rounded-3xl lg:block "> <i class="fa-solid fa-arrow-right lg:pl-3"></i>About Us</a>
+          <div class="absolute mx-auto h-12 left-28 md:left-40 top-18 lg:left-36 space-x-3">
+            <a class=" text-black bg-white   px-0 py-0 lg:px-3 lg:py-2  rounded-3xl  md:hidden lg:block "> <i class="fa-solid fa-arrow-right "></i>About Us</a>
           </div>
         </div>
         <!-- container -->
         <div class="container mx-auto px-12  pt-3 lg:pt-10 grid grid-cols-1 lg:grid-cols-2 gap-5">
-          <!-- text -->
+          
           <div class="pt-16 space-y-6 ">
             <h3 class=" text-2xl text-center lg:text-5xl lg:text-left space-y-10 font-bold">We design thoughtful, liveable spaces</h3>
             <p class="text-dark text-base text-center lg:text-left"> They can say, they can say it all sounds crazy
@@ -120,7 +133,7 @@
             </div> 
           </div>
           <div>
-            <img class="p" src="./assets/Rectangle.png" alt="">
+            <img class="" src="./assets/Rectangle.png" alt="">
           </div>
           
          </div>
