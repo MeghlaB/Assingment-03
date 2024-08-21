@@ -23,6 +23,7 @@
                 primary:'#ABEF5F',
                 secondary:'rgb(33, 33, 33);',
                 colour: '#f5f5f5',
+                dark:'#494949',
               },
               fontFamily: {
                 manrope: ['Manrope'],
@@ -37,9 +38,9 @@
 <body class="font-manrope bg-colour">
     <header class="container mx-auto">
       <!-- nav-bar -->
-      <div class="navbar bg-base-100 bg-colour">
+      <div class="navbar bg-base-100 bg-colour pt-5 ">
         <div class="navbar-start">
-          <div class=" border flex justify-between items-center">
+          <div class=" flex justify-between items-center">
             <i class="fa-solid fa-arrow-up text-2xl w-[40px] h-[40px] px-3 py-1 rotate-45 top-5 rounded-full bg-primary"></i>
             <a class="btn btn-ghost text-3xl font-bold text-[rgb(33, 33, 33);
             ] ">Rinterio</a>
@@ -67,6 +68,22 @@
           </div>
         </div>
       </div> 
+      <!-- Banner-section -->
+      <div class="hero bg-base-200 ">
+        <div class="hero-content text-center flex flex-col">
+         <div>
+          <img src="./assets/banner.png" alt="">
+         </div>
+         <div class="w-4/5">
+          <h1 class="text-6xl font-bold">A barn house of this design has a striking appearance</h1>
+          <p class="py-6 text-dark text-bs font-normal">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+          </p>
+          <a class="btn text-black bg-primary rounded-3xl">Book Consult <i class="fa-solid fa-arrow-up text-bs w-6 h-6 px-1 py-1 rotate-45 rounded-full bg-black text-white"></i></a>
+        </div>
+        </div>
+      </div>
+
         
     </header>
     <main></main>
