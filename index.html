@@ -24,6 +24,10 @@
                 secondary:'rgb(33, 33, 33);',
                 colour: '#f5f5f5',
                 dark:'#494949',
+                card1:'#E7C1D3',
+                card2:'#EFDA6E',
+                card3:'#A4DAC3',
+                card4:'#77AAEA',
               },
               fontFamily: {
                 manrope: ['Manrope'],
@@ -36,7 +40,7 @@
    
 </head>
 <body class=" font-manrope ">
-    <header class="container mx-auto ">
+    <header class="container mx-auto  ">
         <!-- navbar -->
         <div class="navbar bg-base-100 ">
           <div class="navbar-start"> 
@@ -99,9 +103,9 @@
            </div>
         </div>
     </header>
-    <main class=" mt-5 lg:mt-20">
+    <main class="  mt-5 lg:mt-20">
       <!-- We design thoughtful, liveable spaces -->
-       <section class=" py-5 bg-colour">
+      <section class=" py-5 bg-colour">
           <div class=" relative  px-20  ">
             <img class="border-2 border-gray-400 border-dashed py-4 hidden lg:block " src="./assets/Vector.png" alt="">
           <div class="absolute mx-auto h-12 left-28 md:left-40 top-18 lg:left-36 space-x-3">
@@ -137,7 +141,54 @@
           </div>
           
          </div>
-       </section>
+      </sectio>
+        <!-- Our Works Process -->
+      <section class=" container mx-auto mt-5 lg:mt-10  space-y-7 ">
+        <div class="pt-5 lg:pt-10 text-center ">
+          <button class=" border bg-white rounded-full px-12 py-2 font-bold text-bs text-black"><i class="fa-solid fa-arrow-right"></i>  How We Works</button>
+        </div>
+        <!-- titile -->
+        <div class="text-center space-y-5 px-2 py-2 lg:px-0 lg:py-0">
+          <h3 class="text-3xl lg:text-4xl font-extrabold text-black">Our Works Process</h3>
+          <p class="text-dark text-bs">The barn house captivates with its blend of rustic charm and modern  sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        </div> 
+        <!-- card-design -->
+        <div class="  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <!-- card1 -->
+          <div class="card bg-base-100 bg-card1 w-72 shadow-xl">
+            <div class="card-body">
+              <img class="w-12" src="./assets/concept.png" alt="">
+              <h2 class="card-title text-black text-2xl font-extrabold">Concept</h2>
+              <p class="text-bs text-black">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="card bg-base-100 bg-card2 w-72 shadow-xl">
+            <div class="card-body">
+              <img class="w-12" src="./assets/concept.png" alt="">
+              <h2 class="card-title text-black text-2xl font-extrabold">Concept</h2>
+              <p class="text-bs text-black">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="card bg-base-100 bg-card3 w-72 shadow-xl">
+            <div class="card-body">
+              <img class="w-12" src="./assets/concept.png" alt="">
+              <h2 class="card-title text-black text-2xl font-extrabold">Concept</h2>
+              <p class="text-bs text-black">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+          <!-- card4 -->
+          <div class="card bg-base-100 bg-card4 w-72 shadow-xl">
+            <div class="card-body">
+              <img class="w-12" src="./assets/concept.png" alt="">
+              <h2 class="card-title text-black text-2xl font-extrabold">Concept</h2>
+              <p class="text-bs text-black">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
     </main>
     <footer></footer>
 </body>
