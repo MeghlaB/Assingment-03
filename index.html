@@ -28,21 +28,20 @@
                 card2:'#EFDA6E',
                 card3:'#A4DAC3',
                 card4:'#77AAEA',
-              
               },
               fontFamily: {
                 manrope: ['Manrope'],
               },
-            }
+            },
           },
         }
       </script>   
 </head>
 <body class=" font-manrope bg-colour  ">
     <header class="bg-gradient-to-t from-[#FDFDFD] to-[#F6F6F6]">
-      <section class=" container mx-auto ">
+      <section class=" container mx-auto px-3 lg:px-0 ">
           <!-- navbar -->
-          <div class="navbar ">
+          <div class="navbar">
             <div class="navbar-start"> 
               <i class="fa-solid fa-arrow-right text-xl  border px-3 py-[5px] rounded-full w-[40px] h-[40px] bg-primary -rotate-45"></i>
               <a class="btn btn-ghost text-3xl font-extrabold">Rinterio</a>
@@ -62,13 +61,13 @@
                 <i class="fa-solid fa-cart-shopping border px-[10px] py-3 rounded-full w-[40px] h-[40px] bg-white"></i>
                 <a class="  btn text-2xl font-extrabold rounded-3xl p bg-primary hover:bg-primary">Book Consult <i class="fa-solid fa-arrow-right text-xl bg-black text-white w-[35px] h-[35px] pt-1 -rotate-45 rounded-full"></i></a>
               </div>
-              <div class="dropdown">
+              <div class="dropdown pl-24 lg:px-0">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
                   <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  class="inline-block bg-white h-[40px] w-[40px] px-2 py-2 border rounded-full  stroke-current">
+                  class="inline-block bg-white h-[40px] w-[40px] px-2 py-2  border rounded-full  stroke-current">
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -89,16 +88,16 @@
             </div>
           </div>
           <!-- banner -->
-          <div class="text-center space-y-9 py-4  px-3 lg:px-0 ">
+          <div class="text-center space-y-9 py-4 px-2 lg:px-0  ">
             <!-- banner-image -->
-            <div class="flex justify-center">
+             <div class="flex justify-center">
               <img src="./assets/banner.png" alt="">
-            </div>
+            </div> 
             <!-- text-container -->
              <div class="space-y-5 ">
                 <h2 class=" text-3xl lg:text-6xl font-extrabold text-black">A barn house of this design has a <br> striking appearance</h2>
                 <p class="text-dark">This barn house design features a blend of timeless elegance and simplicity. The exterior  showcases  <br> classic barn elements,  such as a gabled roof and exposed timber framing.</p>
-                <button class="btn btn-wide rounded-3xl text-xl w-80 lg:w-52 font-extrabold hover:bg-primary bg-[#ABEF5F80]">View Details <i class="fa-solid fa-arrow-right   border px-2 py-2 rounded-full w-[35px] h-[35px] bg-primary -rotate-45"></i></button>
+                <button class="btn btn-wide rounded-3xl text-xl w-72  lg:w-52 font-extrabold hover:bg-primary bg-[#ABEF5F80]">View Details <i class="fa-solid fa-arrow-right   border px-2 py-2 rounded-full w-[35px] h-[35px] bg-primary -rotate-45"></i></button>
              </div>
           </div>
       </section>
@@ -111,27 +110,27 @@
             <button class="  border-none bg-white rounded-full px-5 py-2 font-bold text-bs text-black"><i class="fa-solid fa-arrow-right"></i> About Us</button>
        </div>
         <!-- container -->
-        <div class=" container mx-auto px-3 lg:px-10  grid grid-cols-1 lg:grid-cols-2 gap-7">
-          <div class="pt-5 lg:pt-5 space-y-12 ">
+        <div class="  container mx-auto px-3 lg:px-10  grid grid-cols-1 lg:grid-cols-2 gap-7">
+          <div class="pt-5 lg:pt-11 space-y-12 ">
             <h3 class=" text-2xl text-center lg:text-5xl lg:text-left space-y-10 font-bold">We design thoughtful, liveable spaces</h3>
             <p class="text-dark text-base text-center lg:text-left"> At the heart of our design philosophy is the creation of spaces that are not only aesthetically pleasing but also deeply functional and comfortable</p>
             <div class="flex items-center bg-white rounded-xl px-5 py-5 space-x-5">
                  <img src="./assets/commercial.png" alt="">
                   <div class="">
                     <h1 class="text-xl font-bold">Commercial</h1>
-                    <p class="text-dark font-medium text-left">This commercial emphasizes the aesthetic and functional benefits of a barn house, appealing to potential customers.</p>
+                    <p class=" text-[13px] lg:text-[16px] text-dark font-medium text-left">This commercial emphasizes the aesthetic and functional benefits of a barn house.</p>
                   </div>
             </div>
             <div class="flex items-center bg-white rounded-xl px-2 py-2 lg:px-5 lg:py-5 space-x-5">
                  <img src="./assets/residential.png" alt="">
                   <div>
                     <h1 class="text-xl font-bold">Residential</h1>
-                    <p class="text-dark font-medium text-left ">The appeal of barn houses as residential spaces, focusing on their aesthetic charm and modern amenities</p>
+                    <p class="text-[13px] lg:text-[16px] text-dark font-medium text-left ">The appeal of barn houses as residential spaces, focusing on their aesthetic charm and modern amenities</p>
                   </div>
             </div> 
           </div>
           <!-- Image -->
-          <img class="h-[70%] w-full lg:h-full object-cover overflow-hidden lg:object-none  rounded-3xl  flex-1" src="./assets/Rectangle.png" alt="">
+           <img class="h-[70%] w-full lg:h-full object-cover overflow-hidden lg:object-none  rounded-3xl  flex-1" src="./assets/Rectangle.png" alt="">
           
          </div>
       </section>
@@ -148,7 +147,7 @@
         <!-- card-design -->
         <div class=" px-5 lg:px-0 lg:grid  grid-cols-1 lg:grid-cols-4 gap-10 flex flex-col items-center justify-center">
           <!-- card1 -->
-          <div class="card bg-base-100 bg-card1  shadow-xl">
+       <div class="card bg-base-100 bg-card1  shadow-xl">
             <div class="card-body">
               <img class="w-12" src="./assets/concept.png" alt="">
               <h2 class="card-title text-black text-2xl font-extrabold">Concept</h2>
@@ -164,7 +163,7 @@
             </div>
           </div>
           <!-- card3 -->
-           <div class="card bg-base-100 bg-card3  shadow-xl">
+          <div class="card bg-base-100 bg-card3  shadow-xl">
             <div class="card-body">
               <img class="w-12" src="./assets/vision.png" alt="">
               <h2 class="card-title text-black text-2xl font-extrabold">Supervision</h2>
@@ -179,18 +178,18 @@
               <p class="text-bs text-black">Allocate a portion of the budget for architectural and engineering fees. This includes costs.</p>
             </div>
           </div> 
-        </div> 
+        </div>
       </section>
       <!-- Read Our Articles and News -->
       <section class="  mt-20 mb-6">
-      <div class=" bg-white px-5 rounded-3xl py-5 ">
+       <div class=" bg-white px-5 rounded-3xl py-5 ">
         <div class="text-center space-y-4 px-3 lg:px-0">
           <button class=" border border-none bg-[#ABEF5F33] rounded-full px-12 py-2 font-bold text-bs text-black"><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
           <h1 class=" text-3xl capitalize lg:text-5xl font-extrabold">Our Latest Portfolio</h1>
           <p class="tect-dark">These homes feature traditional barn aesthetics paired with contemporary amenities, <br> creating a unique and inviting living space..</p>
-        </div>
+        </div> 
         <!-- card -->
-        <div 
+         <div 
         class=" container mx-auto  grid grid-cols-1 lg:grid-cols-5 gap-6 mt-10 lg:mt-20 px-3 lg:px-0  ">
             <div 
             class= " border gap-6 bg-white h-auto px-6 w-[100%] items-center justify-center lg:flex lg:col-span-3 space-y-4 rounded-2xl">
@@ -203,7 +202,7 @@
                     <button class="py-4 text-xl font-extrabold text-black items-center flex gap-3 hover:bg-primary hover:p-4 hover:rounded-lg">View details  <i class="fa-solid fa-arrow-right text-xl  border px-3 py-1 rounded-full w-[40px] h-[40px] bg-primary -rotate-45"></i></button>
                 </div>    
             </div>
-            <div 
+            <div
             class=" border bg-white h-auto w-[100%]  lg:col-span-2 px-6 py-6 rounded-2xl">
                 <img class="w-full h-full object-contain" src="./assets/img2.png" alt="">
             </div>
@@ -221,13 +220,13 @@
                     <button class="py-4 text-xl font-extrabold text-black items-center flex gap-3 hover:bg-primary hover:p-4 hover:rounded-lg">View details  <i class="fa-solid fa-arrow-right text-xl  border px-3 py-1 rounded-full w-[40px] h-[40px] bg-primary hover:bg-red-950 -rotate-45"></i></button>
                 </div>
             </div>
-            <div class=" border bg-white h-auto w-[100%] col-span-1 px-4 py-4  rounded-2xl">
+             <div class=" border bg-white h-auto w-[100%] col-span-1 px-4 py-4  rounded-2xl">
                 <img class="w-full h-full object-contain" src="./assets/img3.png" alt="">
             </div> 
             <div 
             class="border bg-white h-auto w-[100%] col-span-1 px-4 py-4  rounded-2xl block lg:hidden">
                 <img class="w-full h-full object-contain" src="./assets/img5.png" alt="">
-            </div> 
+            </div>
         </div>
       </div>
       </section>
@@ -249,7 +248,7 @@
                 <P class="text-[16px] text-black font-medium text-center  ">Tough is undoubtedly a solid HTML interior design .</P>
                 <p class="text-center"><i class="fa-solid fa-arrow-right text-xl  border px-3 py-2  w-[45px] h-[45px] bg-primary text-white "></i></p>
                 </div>
-            </div>
+            </div> 
             <!-- services2 -->
             <div class="card bg-base-100 shadow-xl border hover:border-lime-300 hover:border-4  hover:text-lime-300">
               <p class=" text-2xl text-gray-300 px-2 py-3">02</p>
@@ -304,7 +303,7 @@
         </div>
       </section>
       <!-- Let’s Discuss Next Project -->
-  <section class=" mt-12   bg-[url(./assets/bg.jpg)] bg-no-repeat bg-cover  pb-5 ">
+      <section class=" mt-12   bg-[url(./assets/bg.jpg)] bg-no-repeat bg-cover  pb-5 ">
         <div class="  px-4 lg:px-0">
           <div class="pt-5 text-center space-y-5 " >
             <button class=" border bg-[#ABEF5F33] rounded-full px-12 py-2 font-bold text-bs text-black"><i class="fa-solid fa-arrow-right"></i>  Let's Contact</button>
@@ -320,8 +319,8 @@
               <textarea class="textarea textarea-bordered resize-none h-48 lg:w-[850px] w-full border-none rounded-3xl " placeholder="Write your message here"></textarea>
             </div>
           </div>
-          <div class="flex items-center justify-center pt-7">
-            <button class="btn btn-wide border-none rounded-3xl text-xl w-[400px] lg:w-[850px]  font-extrabold bg-primary hover:bg-[#ABEF5F80]">Send Mail <i class="fa-solid fa-arrow-right   border px-2 py-2 rounded-full w-[35px] h-[35px] bg-black text-white -rotate-45"></i></button>
+          <div class="flex items-center  justify-center pt-7">
+            <button class="btn btn-wide border-none rounded-3xl text-xl w-full lg:w-[850px]  font-extrabold bg-primary hover:bg-[#ABEF5F80]">Send Mail <i class="fa-solid fa-arrow-right   border px-2 py-2 rounded-full w-[35px] h-[35px] bg-black text-white -rotate-45"></i></button>
           </div>
         </div>
       </section> 
@@ -344,6 +343,6 @@
       <div class="flex justify-center items-center py-4">
         <button class="btn btn-wide rounded-3xl text-xl  border-none  font-extrabold bg-primary hover:bg-[#ABEF5F80]">Book Consult<i class="fa-solid fa-arrow-right   border px-2 py-2 rounded-full w-[35px] h-[35px] bg-black text-white -rotate-45"></i></button>
       </div>
-    </footer> 
+    </footer>
 </body>
 </html>
